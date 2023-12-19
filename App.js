@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import database from './firebase';
+import database from './firebase'; // Correct import statement
 import { ref, onValue, push } from 'firebase/database';
 
 function App() {
